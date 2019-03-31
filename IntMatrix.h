@@ -1,7 +1,9 @@
 #pragma once
 //in Yaels Classes slide there is
-// #ifndef _IntMatrix_H_
-// #define _IntMatrix_H_
+#ifndef _IntMatrix_H_
+#define _IntMatrix_H_
+
+
 
 class IntMatrix
 {
@@ -39,7 +41,7 @@ public: // overloading functions
 	int getCols(){return _NumOfCols;}
 	void setRows(int num){_NumOfRows = num;}
 	void setCols(int num){_NumOfCols = num;}
-	void fill_matrix(IntMatrix* );
+	void fill_matrix();
 	int** getMatrix() { return _matrix; }
 
 private: // private variables
@@ -49,4 +51,4 @@ private: // private variables
 };
 
 //end of question about yael classes slide
-// #endif //_IntMatrix_H_
+ #endif _IntMatrix_H_

@@ -1,7 +1,7 @@
 #include <iostream>
-#include "IntMatrix.cpp"
+//#include "IntMatrix.cpp"
 #include "IntMatrix.h"
-#include "Log.cpp"
+//#include "Log.cpp"
 #include <string>
 
 
@@ -23,7 +23,7 @@ int main()
 	std::cout << "enter Matrix cols : " << std::endl;
 	std::cin >> cols;
 	IntMatrix *p = new IntMatrix(rows,cols); //making new instance of matrix
-	p->fill_matrix(p);
+	p->fill_matrix();
 		
 	
 	
