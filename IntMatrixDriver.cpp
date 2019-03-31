@@ -1,16 +1,14 @@
 #include <iostream>
 //#include "IntMatrix.cpp"
 #include "IntMatrix.h"
-//#include "Log.cpp"
+#include "Log.cpp"
 #include <string>
 
 
 
 
 
-void print_matrix()
-{
-}
+
 
 
 int main()
@@ -24,6 +22,7 @@ int main()
 	std::cin >> cols;
 	IntMatrix *p = new IntMatrix(rows,cols); //making new instance of matrix
 	p->fill_matrix();
+	//p->show_matrix();
 		
 	
 	

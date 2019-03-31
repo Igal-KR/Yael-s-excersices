@@ -42,6 +42,7 @@ public: // overloading functions
 	void setRows(int num){_NumOfRows = num;}
 	void setCols(int num){_NumOfCols = num;}
 	void fill_matrix();
+	//void show_matrix();
 	int** getMatrix() { return _matrix; }
 
 private: // private variables
